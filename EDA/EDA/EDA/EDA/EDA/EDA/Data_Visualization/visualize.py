@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
-data = pd.read_csv("Student.csv")
+data = pd.read_csv("students.csv")
 
 plt.figure(figsize=(8, 5))
 plt.bar(data["Name"], data["Marks"])
