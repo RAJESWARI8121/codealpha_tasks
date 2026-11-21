@@ -12,8 +12,8 @@ plt.xlabel("Student Name")
 plt.ylabel("Marks")
 plt.xticks(rotation=45)
 
-os.makedirs("Data_Visualization/outputs", exist_ok=True)
+os.makedirs("outputs", exist_ok=True)
 plt.tight_layout()
-plt.savefig("Data_Visualization/outputs/marks_chart.png")
+plt.savefig("outputs/marks_chart.png")
 
 print("Chart created successfully!")
