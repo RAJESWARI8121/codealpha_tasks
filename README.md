@@ -1,1 +1,1 @@
-# CodeAlpha Data Analytics Internship\nFour task folders are included. Read each task README, install its requirements, and run the script.
+Extracts quote, author, and tags from Quotes to Scrape. Run `python scraper.py`. Internet required; not live-tested.
